@@ -2,8 +2,8 @@
 // Configuración de la conexión a la base de datos
 $host = 'localhost';
 $dbname = 'mi_proyecto_db';
-$username = 'root';
-$password = ''; // Deja vacío por ahora, o pon la contraseña aquí si es necesario
+$username = 'dani';
+$password = 'pan123'; // Deja vacío por ahora, o pon la contraseña aquí si es necesario
 
 try {
     // Crear conexión PDO
@@ -14,4 +14,5 @@ try {
     // Manejar errores de conexión
     die("Error de conexión: " . $e->getMessage());
 }
+
 ?>
